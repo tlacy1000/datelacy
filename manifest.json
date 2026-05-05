@@ -1,0 +1,905 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Jazzy",
+    "page_builder": "elementor",
+    "kit_version": "1.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kitpro.site",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Album",
+            "screenshot": "screenshots\/album.jpg",
+            "source": "templates\/album.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/album\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Album",
+            "screenshot": "screenshots\/single-album.jpg",
+            "source": "templates\/single-album.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/single-album\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Tour",
+            "screenshot": "screenshots\/tour.jpg",
+            "source": "templates\/tour.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/tour\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Tour",
+            "screenshot": "screenshots\/single-tour.jpg",
+            "source": "templates\/single-tour.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/single-tour\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog",
+            "screenshot": "screenshots\/single-blog.jpg",
+            "source": "templates\/single-blog.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/single-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Form",
+            "screenshot": "screenshots\/contact-form.jpg",
+            "source": "templates\/contact-form.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Newsletters Form",
+            "screenshot": "screenshots\/newsletters-form.jpg",
+            "source": "templates\/newsletters-form.json",
+            "preview_url": "https:\/\/kitpro.site\/jazzy\/template-kit\/newsletters-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.6.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Liza Spotify Widget For Elementor",
+            "version": "1.2.1",
+            "file": "liza-spotify-widget-for-elementor\/liza-spotify-widget.php",
+            "author": "Nick Sirbiladze"
+        },
+        {
+            "name": "Elementor Header & Footer Builder",
+            "version": "1.6.9",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.1.2",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.7.2",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "jazz-instruments-in-a-loft-2021-08-26-15-32-58-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/jazz-instruments-in-a-loft-2021-08-26-15-32-58-utc-800x421.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 252709,
+            "dimensions": [
+                1900,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "music.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/music-800x293.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                }
+            ],
+            "filesize": 103608,
+            "dimensions": [
+                1992,
+                730
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/abstract-musical-background_861905.htm#query=music&position=4&from_view=search"
+        },
+        {
+            "filename": "black-smiling-jazz-musician-poses-with-saxophone-2021-08-26-16-27-15-utc.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/black-smiling-jazz-musician-poses-with-saxophone-2021-08-26-16-27-15-utc.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 197393,
+            "dimensions": [
+                692,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "Album-2.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/Album-2-800x586.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                }
+            ],
+            "filesize": 250936,
+            "dimensions": [
+                1000,
+                733
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "Album-3.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/Album-3-800x586.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                }
+            ],
+            "filesize": 120128,
+            "dimensions": [
+                1000,
+                733
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "Untitled-1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/Untitled-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 139340,
+            "dimensions": [
+                774,
+                991
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "image-1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/image-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 133062,
+            "dimensions": [
+                774,
+                991
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "black-jazz-performer-plays-the-saxophone-on-stage-2021-08-26-16-27-14-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/black-jazz-performer-plays-the-saxophone-on-stage-2021-08-26-16-27-14-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 229552,
+            "dimensions": [
+                1498,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "Album-4.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/Album-4-800x586.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                }
+            ],
+            "filesize": 113821,
+            "dimensions": [
+                1000,
+                733
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "mixed-race-young-man-in-hat-and-eyeglasses-playing-2021-09-03-07-42-19-2-utc.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/mixed-race-young-man-in-hat-and-eyeglasses-playing-2021-09-03-07-42-19-2-utc.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 132870,
+            "dimensions": [
+                600,
+                785
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-5.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-5-800x586.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                }
+            ],
+            "filesize": 216176,
+            "dimensions": [
+                1000,
+                733
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "black-jazz-performer-poses-with-saxophone-on-stage-2021-08-26-16-27-15-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/black-jazz-performer-poses-with-saxophone-on-stage-2021-08-26-16-27-15-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-album.json",
+                    "name": "Single Album"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 235361,
+            "dimensions": [
+                1498,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "female-jazz-musician-in-hat-plays-the-saxophone-2021-08-26-16-27-16-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/female-jazz-musician-in-hat-plays-the-saxophone-2021-08-26-16-27-16-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 183089,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "male-jazz-performer-and-female-saxophonist-2021-08-26-16-27-20-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/male-jazz-performer-and-female-saxophonist-2021-08-26-16-27-20-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                },
+                {
+                    "source": "templates\/single-album.json",
+                    "name": "Single Album"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 229099,
+            "dimensions": [
+                1498,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "sax-man-and-fiddler-duet-playing-classical-melody-2021-08-26-16-25-41-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/sax-man-and-fiddler-duet-playing-classical-melody-2021-08-26-16-25-41-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 218305,
+            "dimensions": [
+                1498,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "black-grand-piano-player-jazz-musician-2021-08-26-16-27-21-utc.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/black-grand-piano-player-jazz-musician-2021-08-26-16-27-21-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/tour.json",
+                    "name": "Tour"
+                }
+            ],
+            "filesize": 157708,
+            "dimensions": [
+                1498,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/team-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 159595,
+            "dimensions": [
+                774,
+                991
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "team-2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/team-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 143941,
+            "dimensions": [
+                774,
+                991
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 180061,
+            "dimensions": [
+                774,
+                991
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                }
+            ],
+            "filesize": 164570,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-2-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                }
+            ],
+            "filesize": 180882,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-3.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-3-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                }
+            ],
+            "filesize": 220769,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-4.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-4-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                }
+            ],
+            "filesize": 198457,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-5.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-5-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                }
+            ],
+            "filesize": 204801,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "album-0.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/album-0-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/album.json",
+                    "name": "Album"
+                },
+                {
+                    "source": "templates\/single-album.json",
+                    "name": "Single Album"
+                }
+            ],
+            "filesize": 200038,
+            "dimensions": [
+                1400,
+                1400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "tour-1.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/tour-1-800x421.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                }
+            ],
+            "filesize": 127889,
+            "dimensions": [
+                1900,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "tour-2.jpg",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/tour-2-800x421.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-tour.json",
+                    "name": "Single Tour"
+                }
+            ],
+            "filesize": 255183,
+            "dimensions": [
+                1900,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "404-white.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/404-white-800x642.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 99796,
+            "dimensions": [
+                1923,
+                1544
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        },
+        {
+            "filename": "logo-gold-white.png",
+            "thumbnail_url": "https:\/\/kitpro.site\/jazzy\/wp-content\/uploads\/sites\/118\/2022\/10\/logo-gold-white-800x332.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 87360,
+            "dimensions": [
+                2948,
+                1222
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/6Q7ZJ2DX58"
+        }
+    ]
+}
