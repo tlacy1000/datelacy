@@ -1,0 +1,1236 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>datelacy.com | Let's get in touch!</title> <style>
+    
+    :root {
+      --black: #0d0d0b;
+      --charcoal: #20201d;
+      --cream: #f6f2eb;
+      --cream-2: #ebe5dc;
+      --gold: #c69a55;
+      --gold-light: #d9b26f;
+      --text: #211d19;
+      --muted: #71685f;
+      --line: rgba(33, 29, 25, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 400;
+      line-height: 1.05;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: inline-flex;
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px 6vw;
+      color: white;
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .brand {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      text-transform: lowercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.2rem;
+      font-weight: 700;
+      font-size: 0.72rem;
+    }
+
+    .hero {
+      min-height: 620px;
+      display: grid;
+      grid-template-columns: 1fr 1.12fr;
+      color: white;
+      background: var(--black);
+      position: relative;
+      overflow: hidden;
+    }
+    
+
+    .looking-for-section {
+  padding: 90px 24px;
+  background: #fff8f3;
+  color: #2f241f;
+}
+
+.looking-for-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-kicker {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: #9b6f5f;
+  margin-bottom: 14px;
+}
+
+.looking-for-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  font-weight: 600;
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+.section-intro {
+  max-width: 680px;
+  margin: 0 auto 48px;
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: #6b5850;
+}
+
+.looking-for-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.looking-card {
+  background: #ffffff;
+  border: 1px solid rgba(95, 65, 50, 0.12);
+  border-radius: 28px;
+  padding: 32px 28px;
+  text-align: left;
+  box-shadow: 0 18px 45px rgba(74, 48, 35, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.looking-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 55px rgba(74, 48, 35, 0.13);
+}
+
+.icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #f6e3da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  margin-bottom: 22px;
+}
+
+.looking-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.45rem;
+  margin-bottom: 12px;
+  color: #2f241f;
+}
+
+.looking-card p {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #6b5850;
+}
+
+@media (max-width: 900px) {
+  .looking-for-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .looking-for-section {
+    padding: 70px 18px;
+  }
+
+  .looking-for-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .looking-card {
+    padding: 28px 24px;
+  }
+}
+
+.match-mini-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.mini-card {
+  background: #fff8f3;
+  border: 1px solid rgba(95, 65, 50, 0.12);
+  border-radius: 30px;
+  padding: 38px;
+  box-shadow: 0 18px 45px rgba(74, 48, 35, 0.07);
+}
+
+.accent-card {
+  background: #f6e3da;
+}
+
+.mini-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  color: #9b6f5f;
+  margin-bottom: 14px;
+}
+
+.mini-card h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  line-height: 1.1;
+  color: #2f241f;
+  margin-bottom: 24px;
+}
+
+.mini-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mini-card li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #6b5850;
+  font-size: 1rem;
+}
+
+.mini-card li::before {
+  content: "♡";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #9b6f5f;
+}
+
+@media (max-width: 760px) {
+  .match-mini-sections {
+    grid-template-columns: 1fr;
+    padding: 60px 18px;
+  }
+
+  .mini-card {
+    padding: 30px 24px;
+  }
+}
+.about-modern {
+  display: grid;
+  grid-template-columns: 0.8fr 1.1fr 0.8fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 5rem 8vw;
+  background: #f7f1e8;
+}
+
+.portrait-wrap img {
+  border-radius: 999px 999px 0 0;
+  height: 440px;
+  object-fit: cover;
+}
+
+.section-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #b86767;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.about-copy h2,
+.date-ideas h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+  color: #1d251d;
+}
+
+.about-copy p {
+  margin-bottom: 0.8rem;
+  max-width: 560px;
+}
+
+.script-line {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #c77979;
+  font-size: 1.5rem;
+  margin-top: 1.8rem;
+}
+
+.quick-facts {
+  border-left: 1px solid rgba(80, 50, 40, 0.18);
+  padding-left: 3rem;
+  display: grid;
+  gap: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+}
+
+.quick-facts div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #b86767;
+}
+
+.quick-facts span {
+  color: #1d251d;
+}
+
+.date-ideas {
+  padding: 3.5rem 6vw 5rem;
+  text-align: center;
+  background: #f7f1e8;
+}
+
+.date-card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.mini-card img {
+  aspect-ratio: 1.45 / 1;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.mini-card h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+}
+
+.mini-card p {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #3d3832;
+}
+.green-flags-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 8vw;
+  background: #efe6dc;
+  gap: 3rem;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.green-left h2,
+.green-right h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.flags-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem 2rem;
+  font-size: 0.95rem;
+}
+
+.flags-grid div {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.bonus {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #8b6b5a;
+}
+
+.green-right {
+  border-left: 1px solid rgba(0,0,0,0.08);
+  padding-left: 3rem;
+}
+
+.why-list {
+  list-style: none;
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 22px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #c77979; /* your soft pink */
+}
+
+.why-list li {
+  position: relative;
+  padding-left: 1.6rem;
+}
+
+.why-list li::before {
+  content: \"♡\";
+  position: absolute;
+  left: 0;
+  color: #c77979;
+}
+
+@media (max-width: 900px) {
+  .green-flags-section {
+    grid-template-columns: 1fr;
+  }
+
+  .green-right {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+@media (max-width: 900px) {
+  .about-modern {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .quick-facts {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .date-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .date-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait-wrap img {
+    height: 360px;
+  }
+}
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.72) 34%, rgba(0,0,0,0.18) 72%);
+      z-index: 1;
+    }
+
+    .hero-image {
+        object-position: center top;
+      grid-column: 1 / -1;
+      grid-row: 1;
+      opacity: 0.92;
+    }
+
+    .hero-content {
+      grid-column: 1;
+      grid-row: 1;
+      align-self: center;
+      position: relative;
+      z-index: 2;
+      padding: 80px 6vw 70px;
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: clamp(3.5rem, 7vw, 5.9rem);
+      margin-bottom: 0.4rem;
+    }
+
+    .hero .script {
+      display: block;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(2.2rem, 5vw, 4.2rem);
+      font-style: italic;
+      color: var(--gold-light);
+      margin-bottom: 1.1rem;
+    }
+
+    .gold-rule {
+      width: 38px;
+      height: 3px;
+      background: var(--gold);
+      margin: 1.2rem 0;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 340px;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--gold-light);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.18);
+      min-width: 230px;
+      padding: 1rem 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-weight: 800;
+      font-size: 0.82rem;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: var(--gold);
+    }
+
+    .split-about {
+      display: grid;
+      grid-template-columns: 0.74fr 1.26fr;
+      min-height: 560px;
+      background: var(--cream);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .about-text {
+      padding: 70px 10vw 70px 10vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .section-label {
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      font-size: 0.8rem;
+      font-weight: 800;
+      margin-bottom: 0.8rem;
+    }
+
+    .about-text p {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.18rem;
+      margin: 1rem 0;
+      max-width: 410px;
+    }
+
+    .heart {
+      color: var(--gold);
+      font-size: 1.8rem;
+      margin-top: 1rem;
+    }
+
+    .about-image {
+      min-height: 560px;
+      border-left: 1px solid var(--line);
+    }
+
+    .ideal-date {
+      padding: 38px 6vw 58px;
+      text-align: center;
+      background: var(--cream);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .ideal-date .gold-rule {
+      margin: 0.7rem auto 2rem;
+      height: 2px;
+    }
+
+    .date-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.8rem;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .date-card {
+      text-align: left;
+      position: relative;
+    }
+
+    .date-card figure {
+      aspect-ratio: 1.55 / 1;
+      overflow: hidden;
+      border-radius: 2px;
+      background: #ddd;
+    }
+
+    .badge {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      border: 2px solid var(--gold-light);
+      background: #171715;
+      color: white;
+      display: grid;
+      place-items: center;
+      position: relative;
+      margin: -28px auto 0.7rem;
+      font-size: 1.45rem;
+    }
+
+    .date-card h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-weight: 500;
+    }
+
+    .date-note {
+      margin-top: 2rem;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-style: italic;
+      color: var(--gold);
+      font-size: 1.05rem;
+    }
+
+    .depth {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      background: var(--black);
+      color: white;
+      min-height: 450px;
+    }
+
+    .depth-image {
+      min-height: 450px;
+    }
+
+    .depth-copy {
+      padding: 5.2rem 8vw;
+      background: radial-gradient(circle at 20% 40%, rgba(255,255,255,0.06), transparent 28%), var(--charcoal);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .depth h2 {
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      margin-bottom: 1rem;
+    }
+
+    .depth p {
+      font-size: 1.1rem;
+      max-width: 360px;
+      margin-bottom: 1.4rem;
+    }
+
+    .check-list {
+      list-style: none;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .check-list li::before {
+      content: "✓";
+      color: var(--black);
+      background: var(--gold-light);
+      border-radius: 50%;
+      display: inline-grid;
+      place-items: center;
+      width: 18px;
+      height: 18px;
+      font-size: 0.75rem;
+      margin-right: 0.7rem;
+      font-weight: bold;
+    }
+
+    .looking-for {
+      padding: 32px 6vw 45px;
+      text-align: center;
+      background: var(--cream);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .looking-grid {
+      max-width: 1000px;
+      margin: 1.8rem auto 0;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .trait {
+      padding: 0 1.5rem;
+      border-left: 1px solid var(--line);
+    }
+
+    .trait:first-child {
+      border-left: 0;
+    }
+
+    .trait-icon {
+      font-size: 2.1rem;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+    }
+
+    .trait p {
+      font-size: 0.95rem;
+      line-height: 1.25;
+    }
+
+    .application {
+      display: grid;
+      grid-template-columns: 0.65fr 1fr;
+      gap: 4rem;
+      padding: 4.5rem 8vw 2.2rem;
+      background: linear-gradient(135deg, #22221f, #11110f);
+      color: white;
+    }
+
+    .application h2 {
+      font-size: clamp(2.3rem, 4vw, 3.6rem);
+      margin-top: 1.3rem;
+    }
+
+    .application p {
+      margin-top: 1.2rem;
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.86);
+    }
+
+    .form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.55rem;
+    }
+
+    .form input,
+    .form select,
+    .form textarea {
+      width: 100%;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.22);
+      color: white;
+      padding: 0.85rem 1rem;
+      border-radius: 3px;
+      font: inherit;
+    }
+
+    .form input::placeholder,
+    .form textarea::placeholder {
+      color: rgba(255,255,255,0.74);
+    }
+
+    .form select {
+      color: rgba(255,255,255,0.78);
+    }
+
+    .form textarea,
+    .form select,
+    .form button {
+      grid-column: 1 / -1;
+    }
+
+    .form textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .form button {
+      width: 100%;
+      border: 0;
+    }
+
+    .footer {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: space-between;
+      color: rgba(255,255,255,0.55);
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 1rem;
+      margin-top: 1.6rem;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        min-height: 480px;
+      }
+
+      .hero::before {
+        background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72));
+      }
+
+      .hero-content {
+        padding: 90px 6vw 50 px;
+        max-width: none;
+      }
+
+      .split-about,
+      .depth,
+      .application {
+        grid-template-columns: 1fr;
+      }
+
+      .about-text {
+        padding: 3.5rem 8vw;
+      }
+
+      .date-grid,
+      .looking-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 560px) {
+      .hero-content {
+        padding: 120px 1.4rem 60px;
+      }
+
+      .nav {
+        padding: 24px 1.4rem;
+      }
+
+      .date-grid,
+      .looking-grid,
+      .form {
+        grid-template-columns: 1fr;
+      }
+
+      .trait,
+      .trait:first-child {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+        padding: 1.3rem 0;
+      }
+
+      .application {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+      }
+
+      .footer {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      
+    }
+  </style></head><body>
+  <header class="nav">
+    <a href="#" class="brand">datelacy.com</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#ideal-date">Ideal Date</a>
+      <a href="#apply">Apply</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header> <main>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="images/cocktail.jpg" alt="Lacy smiling in a moody jazz bar with a martini" />
+      </div><div class="hero-content">
+    <h1>Hi, I’m Lacy.</h1>
+    <span class="script">Let’s skip the apps.</span>
+    <div class="gold-rule"></div>
+    <p>Neuroscientist.<br />Jazz bar regular.<br />Looking for something real.</p>
+    <a class="btn" href="#apply">Propose a Date</a>
+  </div>
+</section>
+ 
+
+<section id="about" class="about-modern">
+  <div class="portrait-wrap">
+    <img src="images/chicago.jpg" alt="Lacy smiling outside" />
+  </div>
+
+  <div class="about-copy">
+    <p class="section-kicker">About Me</p>
+    <h2>The short version</h2>
+
+    <p>
+      I’m a neuroscientist by day and a jazz enthusiast, museum lover,
+      and hot pilates girl by night.
+    </p>
+
+    <p>
+      I love meaningful conversations, exploring new restaurants way too often,
+      and believing connection > perfection.
+    </p>
+
+    <p>
+      I’m looking for a kind, intelligent partner to build something real with.
+    </p>
+
+    <p class="script-line">Let’s see if we’re a match. ♡</p>
+  </div>
+
+  <div class="quick-facts">
+    <div>🍎<span>NYC Based</span></div>
+    <div>🔬 <span>Science Girl</span></div>
+    <div>🎵<span>Jazz Lover</span></div>
+    <div>🍸 <span>Cocktail Enthusiast</span></div>
+    <div>💐<span>Plant Mom</span></div>
+    <div>❤️<span>Looking for a Serious Relationship</span></div>
+  </div>
+</section>
+
+
+ <section class="looking-for">
+  <div class="section-label"></div>
+  <div class="gold-rule"></div>
+
+  <div class="looking-grid">
+    <div class="trait">
+      <div class="trait-icon">💗</div>
+      <p>Kind</p>
+    </div>
+    <div class="trait">
+      <div class="trait-icon">💖 </div>
+      <p>Emotionally<br />available</p>
+    </div>
+    <div class="trait">
+      <div class="trait-icon">🧠</div>
+      <p>Curious</p>
+    </div>
+    <div class="trait">
+      <div class="trait-icon">💑</div>
+      <p>Can demonstrate<br />initiative/plan dates</p>
+    </div>
+    <div class="trait">
+      <div class="trait-icon">∞</div>
+      <p>Wants a real partnership that leads to hopefully forever</p>
+    </div>
+  </div>
+</section>
+
+<section class="looking-for-section">
+  <div class="looking-for-container">
+    <p class="section-kicker">What I’m looking for</p>
+    <h2>A sweet, steady kind of love.</h2>
+
+    <p class="section-intro">
+      I’m looking for someone thoughtful, emotionally present, curious about the world,
+      and genuinely excited to build something real.
+    </p>
+
+    <div class="looking-for-grid">
+      <div class="looking-card">
+        <div class="icon">♡</div>
+        <h3>Kindness first</h3>
+        <p>
+          Someone warm, considerate, and gentle with the people around them.
+        </p>
+      </div>
+
+      <div class="looking-card">
+        <div class="icon">✦</div>
+        <h3>Intentional dating</h3>
+        <p>
+          I’m drawn to people who know they want partnership and are open to
+          showing up consistently while we get to know each other.
+        </p>
+      </div>
+
+      <div class="looking-card">
+        <div class="icon">☕</div>
+        <h3>Best-friend energy</h3>
+        <p>
+          Laughing over coffee, talking about weird little thoughts, cooking dinner,
+          taking walks, and making ordinary life feel special.
+        </p>
+      </div>
+
+      <div class="looking-card">
+        <div class="icon">🎷</div>
+        <h3>Depth + playfulness</h3>
+        <p>
+          Someone who can talk about music, science, books, feelings, big dreams,
+          or absolutely nothing,  and make it all feel easy.
+        </p>
+      </div>
+
+      <div class="looking-card">
+        <div class="icon">🌿</div>
+        <h3>A gentle life together</h3>
+        <p>
+          I love the idea of building a home full of plants, music, good food,
+          affection, and mutual care.
+        </p>
+      </div>
+
+      <div class="looking-card">
+        <div class="icon">🕯️</div>
+        <h3>Romance that feels real</h3>
+        <p>
+          Thoughtful dates, little gestures, emotional safety, mutual effort,
+          and the feeling that we’re choosing each other on purpose.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="match-mini-sections">
+  <div class="mini-card">
+    <p class="mini-kicker">Ideal match</p>
+    <h2>You might be my kind of person if...</h2>
+    <ul>
+      <li>You’re kind, thoughtful, and emotionally steady.</li>
+      <li>You're between the ages of 25 and 35</li>
+      <li>Curious and intellectually engaged- bonus points for STEM, medicine, and research careers </li>
+      <li>You are stable, motivated, and passionate about what you do</li>
+      <li>You’re intentional about love and excited by the idea of building a life with someone</li>
+    </ul>
+  </div>
+  
+
+  <div class="mini-card accent-card">
+    <p class="mini-kicker">Why you’ll like me</p>
+    <h2>I bring warmth, depth, and a lot of heart.</h2>
+    <ul>
+      <li>I’m affectionate, thoughtful, and very invested in the people I care about.</li>
+      <li>I’ll remember the little things that make you feel loved.</li>
+      <li>I’m nerdy, romantic, and always curious about the world.</li>
+      <li>I think love should add color to your life, not drain it.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+<section id="date-ideas" class="date-ideas">
+  <p class="section-kicker">Get to know me</p>
+  <h2>Who *IS* Lacy, really?</h2>
+
+  <div class="date-card-grid">
+    <article class="mini-card">
+      <img src="images/mission.jpeg" alt="Mission Trip" />
+      <h3>Service to Others</h3>
+      <p>Cura Personalis</p>
+    </article>
+
+    <article class="mini-card">
+      <img src="images/cooking.avif" alt="Cooking for You" />
+      <h3>I Show Care in Details</h3>
+      <p>The way I listen, remember, and follow through.</p>
+    </article>
+
+    <article class="mini-card">
+      <img src="images/pinkypromise.jpg" alt="Pinky Promise" />
+      <h3>I invest in the people I choose</h3>
+      <p>And I expect that to be mutual.</p>
+    </article>
+
+    <article class="mini-card">
+      <img src="images/pilates.jpg" alt="Pilates" />
+      <h3>Pilates, kickboxing, MMA</h3>
+      <p>I like to stay in shape and do things that make my body feel good.</p>
+    </article>
+
+      <article class="mini-card">
+      <img src="images/foodie.jpg" alt="Foodie Toast" />
+      <h3>Foodie Endeavors</h3>
+      <p>Trying new spots is my love language.</p>
+    </article>
+
+      <article class="mini-card">
+      <img src="images/cowboy.jpg" alt="Cowboy" />
+      <h3>Western Movies & Cowboy Culture</h3>
+      <p>I love learning about the wild west and watching cowboy movies</p>
+    </article>
+
+      <article class="mini-card">
+      <img src="images/godzilla.avif" alt="Godzilla" />
+      <h3>GODZILLAAAAA</h3>
+      <p>Ask me about it!</p>
+    </article>
+
+      <article class="mini-card">
+      <img src="images/disco.jpg" alt="Disco" />
+      <h3>Disco Music</h3>
+      <p>Especially the Bee Gees!</p>
+    </article>
+
+      <article class="mini-card">
+      <img src="images/mikey.jpg" alt="Horror" />
+      <h3>Scary Movies</h3>
+      <p>Into the entire spectrum here, tbh</p>
+    </article>
+
+     <article class="mini-card">
+      <img src="images/anime.avif" alt="Anime" />
+      <h3>Anime</h3>
+      <p>In search of my Tuxedo Mask!</p>
+    </article>
+
+  </div>
+</section>
+
+<section id="about" class="split-about">
+  <div class="about-text">
+    <div class="section-label">About Me</div>
+    <div class="section-label">AGE 29</div>
+    <div class="section-label">BS Neuro MS Neuro</div>
+    <div class="section-label">Hometown Austin, TX</div>
+    <div class="section-label">Bisexual</div>
+    <div class="section-label">Extroverted</div>
+    <div class="gold-rule"></div>
+    <p>Plant mom, science nerd, and firm believer that the best dates involve good conversation and even better ambiance.</p>
+    <p>I’m usually exploring a museum, trying a new foodie spot in the city, or winding down with jazz and a cocktail.</p>
+    <p>I’m looking for something intentional, warm, and lasting, with someone who values connection and intentionality as much as I do.</p>
+    <p>I love deeply, I'm fiercely loyal, and have so much to give to the right person.</p>
+    <p>If this resonates with you, please reach out!</p>
+    <div class="heart">♥</div>
+  </div>
+
+  <div class="about-image">
+    <img src="images/greenhouse.png" alt="Lacy standing in a greenhouse holding flowers" />
+  </div>
+</section>
+
+
+<section id="ideal-date" class="ideal-date">
+  <div class="section-label">Ideal First Dates</div>
+  <div class="gold-rule"></div>
+
+  <div class="date-grid">
+    <article class="date-card">
+      <figure><img src="images/jazzbar.webp" alt="Martinis and live jazz" /></figure>
+      <div class="badge">♧</div>
+      <h3>Martinis +<br />Jazz</h3>
+    </article>
+
+    <article class="date-card">
+      <figure><img src="images/museumdate.jpg" alt="Museum gallery" /></figure>
+      <div class="badge">⌂</div>
+      <h3>Museum +<br />Espresso</h3>
+    </article>
+
+    <article class="date-card">
+      <figure><img src="images/moviedate.webp" alt="Indie Films" /></figure>
+      <div class="badge">♢</div>
+      <h3>Film +<br />Discussion</h3>
+    </article>
+
+    <article class="date-card">
+      <figure><img src="images/somethingthoughtful.webp" alt="Something Thoughtful" /></figure>
+      <div class="badge">♡</div>
+      <h3>Mystery to Lacy<br />chosen by you!</h3>
+    </article>
+  </div>
+
+  <p class="date-note">If you can plan something thoughtful, you’re already ahead.</p>
+</section>
+
+<section class="depth">
+  <div class="depth-image">
+    <img src="images/reflection.jfif" alt="Lacy playing trumpet in a jazz club" />
+  </div>
+
+  <div class="depth-copy">
+    <h2>I like a little depth</h2>
+    <p>I like people who think about the world a lot, feel deeply, and notice things that others don't.</p>
+    <p>Bonus points if you:</p>
+    <ul class="check-list">
+      <li>love music, science, cooking, or people </li>
+      <li>think and feel really deeply about the world</li>
+      <li>or have something you’re deeply passionate about</li>
+    </ul>
+  </div>
+</section>
+
+
+
+<section id="apply" class="application">
+  <div>
+    <div class="section-label">Think we’d get along?</div>
+    <div class="gold-rule"></div>
+    <h2>Drop me a line! </h2>
+    <p>I read every response.</p>
+    <div class="heart">♥</div>
+  </div>
+
+  <form class="form" action="#" method="post">
+    <input type="text" name="name" placeholder="Name" />
+    <input type="number" name="age" placeholder="Age" />
+    <input type="text" name="contact" placeholder="Instagram / Contact" />
+
+  
+    <select name="looking_for">
+      <option>What are you looking for?</option>
+      <option>A serious relationship</option>
+      <option>Intentional dating</option>
+      <option>Marriage-minded partnership</option>
+    </select>
+
+    <textarea name="about" placeholder="Tell me something about yourself..."></textarea>
+    <button class="btn" type="submit">Drop me a line!</button>
+  </form>
+
+  <footer class="footer" id="contact">
+    <span>© 2026 datelacy.com</span>
+    <span>This is a real date, not a maybe. ♥</span>
+  </footer>
+</section>
+
+  </main>
+</body>
+</html>
